@@ -1,0 +1,254 @@
+/* nav bar */
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin: 0 200px;
+  padding: 5px;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid grey;
+  flex: 1;
+  font-family: fantasy, copperplate;
+}
+
+nav li {
+  flex: auto;
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+nav ul :hover {
+  color: red;
+}
+
+/* left side */
+
+.left {
+  padding-top: 110px;
+  margin-top: 50px;
+  align-items: center;
+  border-right: 1px solid lightslategray;
+  height: 600px;
+  width: 29%;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  width: 200px;
+  height: 275px;
+  border-radius: 50%;
+  border-top: 7px solid rgb(192, 77, 24);
+  border-left: 7px solid rgb(192, 77, 24);
+}
+.nameheader {
+  text-align: center;
+}
+.title {
+  text-align: center;
+}
+.email {
+  color: blue;
+  text-align: center;
+}
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* about */
+.about {
+  padding-top: 105px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60%;
+  float: right;
+}
+.aboutt {
+  font-size: xx-large;
+  color: slategrey;
+}
+
+.aboutp {
+  width: 60%;
+}
+
+/* skills */
+
+.skills {
+  padding-top: 90px;
+  padding-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60%;
+  float: right;
+}
+
+.skillst {
+  font-size: xx-large;
+  color: slategrey;
+}
+
+progress {
+  width: 80%;
+  height: 30px;
+}
+
+/* education */
+
+.education {
+  padding-top: 90px;
+  padding-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  height: auto;
+  float: left;
+}
+.educationt {
+  width: 15%;
+
+  font-size: xx-large;
+  color: slategrey;
+}
+.ed1 {
+  float: left;
+  width: auto;
+  font-size: large;
+}
+.timeplace1 {
+  text-align: right;
+  padding-right: 100px;
+  font-size: large;
+  float: right;
+  width: 40%;
+}
+.ed2 {
+  float: left;
+  width: 40%;
+  font-size: large;
+}
+.timeplace2 {
+  text-align: right;
+  padding-right: 100px;
+  font-size: large;
+  float: right;
+  width: 40%;
+}
+.creds {
+  padding-top: 150px;
+  width: 60%;
+  color: slategrey;
+}
+/* experience */
+
+.experience {
+  padding-top: 90px;
+  padding-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  height: auto;
+  float: left;
+}
+.experiencet {
+  width: 15%;
+  font-size: xx-large;
+  color: slategrey;
+}
+.res {
+  padding-top: 150px;
+  width: 60%;
+  color: slategrey;
+}
+
+/* Intrest */
+
+.intrest {
+  padding-top: 90px;
+  padding-right: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 42%;
+  height: 500px;
+  float: right;
+}
+.intrestt {
+  width: 15%;
+  font-size: xx-large;
+  color: slategrey;
+}
+.intrestlist {
+  list-style-type: circle;
+  font-size: x-large;
+}
+
+@media all and (max-width: 1100px) {
+  .left {
+    text-align: center;
+    padding-bottom: 100px;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    border-right: 1px solid white;
+    border-bottom: 1px solid grey;
+  }
+  img {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    border-top: 7px solid rgb(192, 77, 24);
+    border-left: 7px solid rgb(192, 77, 24);
+  }
+  .about {
+    padding-left: 200px;
+    width: 100%;
+    float: center;
+    padding-top: 0px;
+  }
+  .aboutt {
+    text-align: center;
+  }
+
+  .skills {
+    padding-top: 0%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .education {
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  .educationt {
+    width: 100%;
+    text-align: center;
+  }
+  .creds {
+    padding-top: 100px;
+  }
+
+  .experience {
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 0px;
+    float: center;
+  }
+  .experiencet {
+    width: 100%;
+    text-align: center;
+  }
+
+  .intrest {
+    height: 20;
+    width: 100%;
+    float: left;
+    padding-top: 0px;
+  }
+
+  .intrestt {
+    width: 100%;
+    text-align: center;
+  }
+}
